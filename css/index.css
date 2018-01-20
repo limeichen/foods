@@ -1,0 +1,68 @@
+html{
+	font-size:100px;
+}
+
+.mui-bar-nav{
+	background:#FF9539;
+}
+/*.mui-title{
+	color:white;
+	
+}*/
+.mui-title{
+    		color:white;
+    		font-size:18px;
+    		font-weight:bold;
+    	}
+    	
+.mui-content p{
+    		text-align: center;
+    		margin-top:140px;
+    		font-size:25px;
+    		color:#000000;
+    		font-weight: bload;
+    	}
+.mui-action-back.mui-icon.mui-icon-left-nav.mui-pull-left{
+	color:white;
+}
+input[type=text]{
+	margin: 0.18rem 0;
+	font-size:0.18rem;
+	line-height:0.4rem;
+
+}
+.mui-table-view-cell span{
+	margin-left: 0.5rem;
+	font-weight:bold;
+}
+.mui-bar-tab .mui-tab-item.mui-active{
+	color:white;
+	background: #fc7823;
+}
+.mui-bar-tab .mui-tab-item.left{
+	width:70%;
+	display: inline-block;
+line-height:0.5rem;
+color:#000000;
+}
+.mui-bar-tab .mui-tab-item.left span{
+	color:#fc7823;
+}
+.mui-bar-tab .mui-tab-item.left.mui-active span{
+	color:white;
+}
+.mui-bar-tab .mui-tab-item.right{
+	width:30%;
+	display: inline-block;
+	line-height:0.5rem;
+}
+/*遮罩*/
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,.3);
+}
